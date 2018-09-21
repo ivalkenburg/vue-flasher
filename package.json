@@ -1,0 +1,33 @@
+{
+  "name": "vue-flasher",
+  "version": "1.1.2",
+  "description": "Lightweight renderless flash message component.",
+  "private": false,
+  "scripts": {
+    "build": "vue-cli-service build --dest ./dist --target lib --name vue-flasher ./src/index.js",
+    "prepublish": "npm run build"
+  },
+  "main": "dist/vue-flasher.umd.min.js",
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.3",
+    "@vue/cli-service": "^3.0.3",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "keywords": [
+    "vue",
+    "flash",
+    "notifications",
+    "toast",
+    "renderless"
+  ],
+  "files": [
+    "dist/*.map",
+    "dist/*.js",
+    "src/*"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ivalkenburg/vue-flasher"
+}
