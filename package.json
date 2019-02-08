@@ -4,6 +4,7 @@
   "description": "Lightweight renderless flash message component.",
   "private": false,
   "scripts": {
+    "prepare": "npm run build",
     "build": "vue-cli-service build --dest ./dist --target lib --name vue-flasher ./src/index.js",
     "prepublish": "npm run build"
   },
