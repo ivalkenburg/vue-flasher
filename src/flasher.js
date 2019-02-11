@@ -43,10 +43,10 @@ export default {
         },
     },
     mounted() {
-        Events.$on('flash', this.addItem);
+        Events.$on('notification', this.addItem);
     },
     beforeDestroy() {
-        Events.$off('flash', this.addItem);
+        Events.$off('notification', this.addItem);
     },
     render() {
         return this.$scopedSlots.default({items: this.items, close: this.closeItem});
