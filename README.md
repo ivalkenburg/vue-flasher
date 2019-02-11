@@ -22,7 +22,7 @@ then inside your project entry file:
 
 ```javascript
 import Vue from 'vue';
-import VueFlasher from 'vue-notification-renderless';
+import VueNotificationRenderless from 'vue-notification-renderless';
 
-Vue.use(VueFlasher);
+Vue.use(VueNotificationRenderless);
 ```

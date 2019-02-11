@@ -1,7 +1,7 @@
 import Events from './events';
 
 export default {
-    name: 'vue-flasher',
+    name: 'vue-notification-renderless',
     props: {
         duration: {
           type: Number,

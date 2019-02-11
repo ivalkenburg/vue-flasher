@@ -30,5 +30,5 @@
     "src/*"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/mpowell-atomic/vue-flasher"
+  "homepage": "https://github.com/mpowell-atomic/vue-notification-renderless"
 }
