@@ -28,7 +28,7 @@ export default {
                 ...event
             };
 
-            if (item.duration > 0) {
+            if ((item.duration && item.duration > 0) || (this.duration && !item.duration)) {
                 item.timer = setTimeout(() => item.close(item), item.duration || this.duration);
             }
 
