@@ -1,6 +1,6 @@
 {
   "name": "vue-notification-renderless",
-  "version": "1.1.3",
+  "version": "0.5.0",
   "description": "Lightweight renderless flash message component.",
   "private": false,
   "scripts": {
