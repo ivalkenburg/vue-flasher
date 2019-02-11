@@ -21,12 +21,11 @@ export default {
             let item = {
                 id: this.generateId(),
                 close: () => this.closeItem(item),
-                duration: 5000,
                 ...event
             };
 
-            if (this.item.duration > 0) {
-                item.timer = setTimeout(() => item.close(item), this.item.duration);
+            if (item.duration > 0) {
+                item.timer = setTimeout(() => item.close(item), item.duration);
             }
 
             if (this.reverse) {
