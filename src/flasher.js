@@ -21,6 +21,7 @@ export default {
             let item = {
                 id: this.generateId(),
                 close: () => this.closeItem(item),
+                duration: 5000,
                 ...event
             };
 
