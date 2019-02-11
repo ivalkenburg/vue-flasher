@@ -3,10 +3,6 @@ import Events from './events';
 export default {
     name: 'vue-flasher',
     props: {
-        duration: {
-            type: Number,
-            default: 3000,
-        },
         reverse: {
             type: Boolean,
             default: false,
@@ -28,8 +24,8 @@ export default {
                 ...event
             };
 
-            if (this.duration > 0) {
-                item.timer = setTimeout(() => item.close(item), this.duration);
+            if (this.item.duration > 0) {
+                item.timer = setTimeout(() => item.close(item), this.item.duration);
             }
 
             if (this.reverse) {
