@@ -1,5 +1,6 @@
 import Events from './events';
 import VueNotificationRenderless from './flasher';
+import 'mdn-polyfills/Object.assign';
 
 export default {
   install(Vue, args = {}) {
