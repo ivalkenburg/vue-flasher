@@ -2,7 +2,8 @@
 
 Lightweight renderless flash message component.
 
-Forked to allow per message duration, as opposed to a global duration:
+* WIP - Don't use yet!
+* Forked to allow per message duration, as opposed to a global duration
 
 ```javascript
 this.$flash({
