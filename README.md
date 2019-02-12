@@ -6,7 +6,7 @@ Lightweight renderless flash message component.
 - Forked to allow per message duration, as opposed to a global duration
 
 ```javascript
-this.$flash({
+this.$notification({
   type: 'alert',
   text: 'This is an alert!',
   duration: 5000
