@@ -17,7 +17,7 @@ Demo: https://codesandbox.io/s/88v5v46xl9
 
 ## Installation
 
-`yarn add vue-notification-renderless`
+`npm add vue-notification-renderless`
 
 then inside your project entry file:
 
