@@ -2,8 +2,8 @@
 
 Lightweight renderless flash message component.
 
-* WIP - Don't use yet!
-* Forked to allow per message duration, as opposed to a global duration
+- WIP - Don't use yet!
+- Forked to allow per message duration, as opposed to a global duration
 
 ```javascript
 this.$flash({
@@ -13,7 +13,7 @@ this.$flash({
 });
 ```
 
-Demo: https://codesandbox.io/s/n5v0595394
+Demo: https://codesandbox.io/s/88v5v46xl9
 
 ## Installation
 
