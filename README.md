@@ -14,6 +14,7 @@ this.$notification({
 ```
 
 Demo: https://codesandbox.io/s/88v5v46xl9
+Demo – Bootstrap 4 style alert: https://codesandbox.io/s/l42q46jjll
 
 ## Installation
 
