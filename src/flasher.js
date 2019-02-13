@@ -3,10 +3,6 @@ import Events from './events';
 export default {
   name: 'vue-notification-renderless',
   props: {
-    duration: {
-      type: Number,
-      default: 3000
-    },
     reverse: {
       type: Boolean,
       default: false
