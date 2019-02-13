@@ -1,9 +1,10 @@
-# Vue-Notification-Renderless
+# Vue Notification Renderless
 
 Lightweight renderless flash message component.
 
-- WIP - Don't use yet!
-- Forked to allow per message duration, as opposed to a global duration
+- WIP - Fits my current use case but is subject to change
+- Provides functionality for stacked notifications but allows you to defined the html & css for layout. See demo for use.
+- Forked from [ivalkenburg/vue-flasher](https://github.com/ivalkenburg/vue-flasher) initially to allow per message duration, as opposed to a global duration
 
 ```javascript
 this.$notification({
@@ -13,13 +14,12 @@ this.$notification({
 });
 ```
 
-Demo: https://codesandbox.io/s/88v5v46xl9
-
+Demo: https://codesandbox.io/s/88v5v46xl9  
 Demo – Bootstrap 4 style alert: https://codesandbox.io/s/l42q46jjll
 
 ## Installation
 
-`npm add vue-notification-renderless`
+`npm install vue-notification-renderless`
 
 then inside your project entry file:
 
