@@ -22,6 +22,7 @@ export default {
     addItem(event) {
       let item = {
         id: this.generateId(),
+        duration: 4000,
         close: () => this.closeItem(item),
         ...event
       };
