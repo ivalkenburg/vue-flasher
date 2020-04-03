@@ -2,6 +2,7 @@ import vue from 'rollup-plugin-vue'; // Handle .vue SFC files
 import buble from 'rollup-plugin-buble';
 import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
+import { terser } from "rollup-plugin-terser";
 
 // Transpile/polyfill with reasonable browser support
 export default {
@@ -12,11 +13,11 @@ export default {
     globals: {
       vue: 'Vue'
     },
-    minify: true
   },
   external: ['vue'],
   plugins: [
     resolve(),
+    terser(),
     babel({
       exclude: 'node_modules/**' // only transpile our source code
     }),
